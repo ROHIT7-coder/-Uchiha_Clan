@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Uchiha Clan — The Strongest Battlegrounds</title>
+<meta name="description" content="Uchiha Clan — a Roblox The Strongest Battlegrounds community built on competitive gameplay, tournaments, and clan pride. Join our Discord and follow us on Instagram.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="#home" class="brand">
+      <span class="crest-mark"></span>
+      <span class="js-clan-name">UCHIHA CLAN</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#members">Members</a></li>
+      <li><a href="#tournaments">Tournaments</a></li>
+      <li><a href="#leaderboard">Leaderboard</a></li>
+      <li><a href="#highlights">Highlights</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#join">Join Us</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="#" class="btn btn-ghost js-discord-invite" target="_blank" rel="noopener">Discord</a>
+      <a href="#" class="btn btn-primary js-owner-ig" target="_blank" rel="noopener">Instagram</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#home">Home</a>
+  <a href="#members">Members</a>
+  <a href="#tournaments">Tournaments</a>
+  <a href="#leaderboard">Leaderboard</a>
+  <a href="#highlights">Highlights</a>
+  <a href="#about">About</a>
+  <a href="#join">Join Us</a>
+  <div class="nav-cta">
+    <a href="#" class="btn btn-ghost js-discord-invite" target="_blank" rel="noopener">Join Discord</a>
+    <a href="#" class="btn btn-primary js-owner-ig" target="_blank" rel="noopener">Follow Instagram</a>
+  </div>
+</div>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="home">
+  <canvas id="particle-canvas"></canvas>
+  <div class="hero-slash"></div>
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <div class="status-pill"><span class="status-dot"></span> Clan Active</div>
+      <h1 class="hero-title js-clan-name-split">UCHIHA<br><span class="accent">CLAN</span></h1>
+      <p class="hero-tagline js-clan-tagline">Built Different. Fight Together.</p>
+      <p class="hero-desc">A Roblox <strong class="js-clan-game">The Strongest Battlegrounds</strong> clan built on competitive gameplay, tournaments, and community. We train, we compete, we grow — together.</p>
+      <div class="hero-cta">
+        <a href="#" class="btn btn-primary js-discord-invite" target="_blank" rel="noopener">${icon:discord} Join Our Discord</a>
+        <a href="#" class="btn btn-ghost js-owner-ig" target="_blank" rel="noopener">Follow Us On Instagram</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="crest-glow"></div>
+      <div class="crest-big"></div>
+    </div>
+  </div>
+  <div class="scroll-hint"><span>Scroll</span><span class="line"></span></div>
+</header>
+
+<!-- ============ STATS ============ -->
+<section class="section" id="stats">
+  <div class="container reveal">
+    <div class="stats-grid" id="stats-grid"></div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section section-alt" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="reveal">
+        <div class="eyebrow">Who We Are</div>
+        <h2 class="section-title">About The Clan</h2>
+        <div class="about-text" style="margin-top:24px;">
+          <p><strong>Uchiha Clan</strong> is a Roblox community built around <strong>The Strongest Battlegrounds</strong> — formed for players who want more than casual matches. We train together, compete in tournaments, and push each other to get stronger every day.</p>
+          <p>Our home base is <strong>Discord</strong>, where members talk strategy, queue up for matches, and stay plugged into everything happening in the clan. Our <strong>Instagram</strong> is where we share clips, highlights, and clan culture with the wider TSB community.</p>
+          <p>Whether it's competitive 1v1s, tournament brackets, or just hanging out between matches, Uchiha Clan is about friendly competition and real clan growth — built different, and fighting together.</p>
+        </div>
+      </div>
+      <div class="pillars reveal-stagger">
+        <div class="pillar">
+          <div class="pillar-icon">${icon:swords}</div>
+          <h4>Competitive Play</h4>
+          <p>Serious TSB gameplay and skill development.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon">${icon:trophy}</div>
+          <h4>Tournaments</h4>
+          <p>Clan-hosted brackets with real stakes.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon">${icon:discord}</div>
+          <h4>Discord Community</h4>
+          <p>The main hub for chat, queues, and events.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon">${icon:users}</div>
+          <h4>Clan Growth</h4>
+          <p>Built to grow through content and community.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MEMBERS ============ -->
+<section class="section" id="members">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">The Roster</div>
+      <h2 class="section-title">Clan Members</h2>
+      <p class="section-lede">Every member of Uchiha Clan, organized by role. The roster grows as new members are added.</p>
+      <div class="members-note" id="members-note" style="margin-top:28px;"></div>
+    </div>
+    <div class="tabs" id="member-tabs"></div>
+    <div class="member-grid reveal-stagger" id="member-grid"></div>
+  </div>
+</section>
+
+<!-- ============ STAFF ============ -->
+<section class="section section-alt" id="staff">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Leadership</div>
+      <h2 class="section-title">Current Staff</h2>
+      <p class="section-lede">The people running Uchiha Clan day to day.</p>
+    </div>
+    <div class="staff-grid reveal-stagger" id="staff-grid"></div>
+  </div>
+</section>
+
+<!-- ============ TOURNAMENTS ============ -->
+<section class="section" id="tournaments">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Competitive History</div>
+      <h2 class="section-title">Tournaments</h2>
+      <p class="section-lede">A record of every tournament Uchiha Clan has hosted.</p>
+    </div>
+    <div id="tournament-list" class="reveal"></div>
+  </div>
+</section>
+
+<!-- ============ NEXT TOURNAMENT ============ -->
+<section class="section section-alt">
+  <div class="container reveal">
+    <div class="next-banner">
+      <div class="eyebrow">Next Tournament</div>
+      <h3 id="next-condition">At 2,000 Owner Instagram Followers</h3>
+      <p class="goal-line">The next Uchiha Clan tournament unlocks when the owner hits the follower goal.</p>
+      <div class="follower-track">
+        <div class="bar-outer"><div class="bar-inner" id="follower-bar-inner"></div></div>
+        <div class="track-labels">
+          <span id="follower-current">? followers</span>
+          <span id="follower-goal">2,000 followers</span>
+        </div>
+      </div>
+      <a href="#" class="btn btn-primary js-owner-ig" target="_blank" rel="noopener">Follow The Owner</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BRACKET ============ -->
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Tournament Format</div>
+      <h2 class="section-title">Bracket</h2>
+      <p class="section-lede">Placeholder bracket structure — populated with real matchups once a tournament goes live.</p>
+    </div>
+    <div class="bracket-scroll reveal">
+      <div class="bracket" id="bracket"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LEADERBOARD ============ -->
+<section class="section section-alt" id="leaderboard">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Rankings</div>
+      <h2 class="section-title">Clan Leaderboard</h2>
+      <p class="section-lede">Placeholder rows until real match statistics are tracked.</p>
+    </div>
+    <div class="table-wrap reveal">
+      <table class="leaderboard-table">
+        <thead>
+          <tr><th>Rank</th><th>Player</th><th>Wins</th><th>Kills</th><th>Points</th></tr>
+        </thead>
+        <tbody id="leaderboard-body"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TSB DIVISION ============ -->
+<section class="section" id="tsb">
+  <div class="container">
+    <div class="tsb-grid">
+      <div class="reveal">
+        <div class="eyebrow">The Game</div>
+        <h2 class="section-title">The Strongest<br>Battlegrounds</h2>
+        <p class="section-lede">The core game Uchiha Clan is built around — a Roblox fighting battleground where reads, movement, and combos decide every match.</p>
+        <div class="tsb-feature-list">
+          <div class="tsb-feature"><span class="dot"></span><p><strong>Competitive players</strong> — members who take TSB seriously and train to improve.</p></div>
+          <div class="tsb-feature"><span class="dot"></span><p><strong>Main characters</strong> — every member's go-to build, tracked on their profile card.</p></div>
+          <div class="tsb-feature"><span class="dot"></span><p><strong>Tournament info</strong> — brackets, formats, and results live here as they happen.</p></div>
+          <div class="tsb-feature"><span class="dot"></span><p><strong>Clan events</strong> — scrims, community nights, and casual sessions.</p></div>
+          <div class="tsb-feature"><span class="dot"></span><p><strong>Clips & rankings</strong> — the best TSB moments from the clan, front and center.</p></div>
+        </div>
+      </div>
+      <div class="tsb-visual reveal"><div class="crest-big big-crest"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HIGHLIGHTS ============ -->
+<section class="section section-alt" id="highlights">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Media</div>
+      <h2 class="section-title">Clan Highlights</h2>
+      <p class="section-lede">TSB clips, tournament moments, and clan edits. Placeholder cards until real media is added.</p>
+    </div>
+    <div class="highlight-grid reveal-stagger" id="highlight-grid"></div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightbox-close" aria-label="Close">✕</button>
+  <div class="lightbox-inner" id="lightbox-inner"></div>
+</div>
+
+<!-- ============ INSTAGRAM / DISCORD ============ -->
+<section class="section" id="socials">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Stay Connected</div>
+      <h2 class="section-title">Follow The Clan</h2>
+    </div>
+    <div class="social-split reveal-stagger">
+      <div class="social-card">
+        <div class="social-card-icon">${icon:instagram}</div>
+        <h4>Owner</h4>
+        <p>Follow the clan owner for updates and the 2K tournament countdown.</p>
+        <a href="#" class="btn btn-ghost js-owner-ig" target="_blank" rel="noopener">@ Instagram</a>
+      </div>
+      <div class="social-card">
+        <div class="social-card-icon">${icon:instagram}</div>
+        <h4>Moderator</h4>
+        <p>Follow the Instagram moderator for clan content and posts.</p>
+        <a href="#" class="btn btn-ghost js-mod-ig" target="_blank" rel="noopener">@ Instagram</a>
+      </div>
+      <div class="social-card">
+        <div class="social-card-icon">${icon:users}</div>
+        <h4>Clan Group Chat</h4>
+        <p>Join the Instagram group chat to talk with the clan directly.</p>
+        <a href="#" class="btn btn-ghost js-insta-group" target="_blank" rel="noopener">Join Group</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="discord">
+  <div class="container reveal">
+    <div class="discord-banner">
+      <div class="eyebrow">Community Hub</div>
+      <h3>Join Our Discord</h3>
+      <p class="subline">Talk. Compete. Chill. Dominate.</p>
+      <p style="color:var(--ink-mute); max-width:480px; margin:0 auto;">Discord is the main community hub for Uchiha Clan — matchmaking, announcements, tournament sign-ups, and general clan chat all happen here.</p>
+      <a href="#" class="btn btn-primary js-discord-invite" target="_blank" rel="noopener">${icon:discord} Join Discord</a>
+      <div class="active-pill"><span class="status-dot"></span> Community Active</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NEWS ============ -->
+<section class="section" id="news">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Latest</div>
+      <h2 class="section-title">News &amp; Announcements</h2>
+    </div>
+    <div class="news-grid reveal-stagger" id="news-grid"></div>
+  </div>
+</section>
+
+<!-- ============ HISTORY ============ -->
+<section class="section section-alt" id="history">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">The Journey</div>
+      <h2 class="section-title">Clan History</h2>
+    </div>
+    <div class="timeline reveal" id="timeline"></div>
+  </div>
+</section>
+
+<!-- ============ RULES ============ -->
+<section class="section" id="rules">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Code of Conduct</div>
+      <h2 class="section-title">Clan Rules</h2>
+    </div>
+    <div class="rules-list reveal-stagger" id="rules-list"></div>
+    <p class="rules-note">More rules may be added as the clan grows.</p>
+  </div>
+</section>
+
+<!-- ============ JOIN ============ -->
+<section class="section section-alt" id="join">
+  <div class="container">
+    <div class="join-wrap">
+      <div class="reveal">
+        <div class="eyebrow">Recruitment</div>
+        <h2 class="section-title">Want To Join<br>Uchiha Clan?</h2>
+        <p class="section-lede">Fill out the application below. This form is currently frontend-only — connect it to a backend or Discord bot to start receiving real submissions.</p>
+        <div class="form-success" id="join-success">✓ Application captured locally — connect a backend to receive real submissions.</div>
+      </div>
+      <form class="join-form reveal" id="join-form">
+        <div class="form-row two-col">
+          <div><label for="f-roblox">Roblox Username</label><input id="f-roblox" type="text" placeholder="Your Roblox username" required></div>
+          <div><label for="f-discord">Discord Username</label><input id="f-discord" type="text" placeholder="yourname" required></div>
+        </div>
+        <div class="form-row two-col">
+          <div><label for="f-exp">TSB Experience</label><input id="f-exp" type="text" placeholder="e.g. 2 years, competitive"></div>
+          <div><label for="f-main">Main Character</label><input id="f-main" type="text" placeholder="Your main build"></div>
+        </div>
+        <div class="form-row two-col">
+          <div><label for="f-prev">Previous Clan</label><input id="f-prev" type="text" placeholder="Optional"></div>
+          <div><label for="f-ig">Instagram Username</label><input id="f-ig" type="text" placeholder="Optional"></div>
+        </div>
+        <div class="form-row">
+          <label for="f-why">Why Do You Want To Join?</label>
+          <textarea id="f-why" rows="4" placeholder="Tell us a bit about yourself" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Submit Application</button>
+        <p class="form-note">Applications are not yet connected to a live backend — this is a placeholder submission flow.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CREDITS ============ -->
+<div class="credits-strip">
+  <div class="container" id="credits-block"></div>
+</div>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#home" class="brand"><span class="crest-mark"></span><span class="js-clan-name">UCHIHA CLAN</span></a>
+        <p>The Strongest Battlegrounds Community — built different, fighting together.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#members">Members</a></li>
+          <li><a href="#tournaments">Tournaments</a></li>
+          <li><a href="#leaderboard">Leaderboard</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Community</h5>
+        <ul>
+          <li><a href="#highlights">Highlights</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#join">Join Us</a></li>
+          <li><a href="#" class="js-discord-invite" target="_blank" rel="noopener">Discord</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Staff</h5>
+        <ul>
+          <li><a href="#" class="js-owner-ig" target="_blank" rel="noopener">Owner — Instagram</a></li>
+          <li><a href="#" class="js-mod-ig" target="_blank" rel="noopener">Moderator — Instagram</a></li>
+          <li><span>Discord Mod: <span class="js-discord-mod">that_oneguy007</span></span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="footer-year"></span> Uchiha Clan — Roblox TSB Community</span>
+      <div class="footer-socials">
+        <a href="#" class="js-discord-invite" target="_blank" rel="noopener" aria-label="Discord">${icon:discord}</a>
+        <a href="#" class="js-owner-ig" target="_blank" rel="noopener" aria-label="Instagram">${icon:instagram}</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
