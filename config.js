@@ -204,7 +204,7 @@ const CLAN_CONFIG = {
   // ---------------------------------------------------------
   highlights: [
     { type: "placeholder", title: "TSB Clip" },
-    { type: "video", src: "assets/Roblox 2026-08-08 11-10-02.mp4", title: "Tournament Clip" },
+    { type: "video", src: "Roblox 2026-08-08 11-10-02.mp4", title: "Tournament Clip" },
     { type: "placeholder", title: "1v1 Moment" },
     { type: "placeholder", title: "Combo" },
     { type: "placeholder", title: "Funny Moment" },
