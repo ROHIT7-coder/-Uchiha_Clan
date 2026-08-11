@@ -22,7 +22,7 @@ const CLAN_CONFIG = {
     platform: "Roblox",
     status: "ACTIVE", // shown as a live badge
     logoText: "UC",   // used in the crest mark if no logo image is supplied
-    logoImage: "assets/logo.png",  // set to null to fall back to the CSS crest instead
+    logoImage: "logo.png",  // set to null to fall back to the CSS crest instead
   },
 
   // ---------------------------------------------------------
