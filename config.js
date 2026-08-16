@@ -136,6 +136,18 @@ const CLAN_CONFIG = {
         roblox: null,
         avatar: null,
       },
+      {
+        username: "Shoyo",
+        discord: "shoyo.hinata20",
+        role: "Co-Owner",
+        main: "Garou / Saitama",
+        wins: null,
+        kills: null,
+        points: null,
+        instagram: null,
+        roblox: null,
+        avatar: null,
+      },
     ],
     moderators: [
       {
@@ -151,6 +163,18 @@ const CLAN_CONFIG = {
         avatar: null,
       },
       {
+        username: "ℕ𝔸𝕍𝔸ℕ𝔼𝔼𝕋ℍ",
+        discord: "navaneeth3381",
+        role: "Moderator",
+        main: "Garou / Saitama",
+        wins: null,
+        kills: null,
+        points: null,
+        instagram: null,
+        roblox: null,
+        avatar: null,
+      }, 
+      {
         username: "That_OneGuy",
         discord: "that_oneguy007",
         role: "Moderator",
@@ -163,7 +187,20 @@ const CLAN_CONFIG = {
         avatar: null,
       },
     ],
-    elite: [],
+    elite: [
+       {
+        username: "xShadowx",
+        discord: null,
+        role: "Traitor",
+        main: "Garou / Saitama",
+        wins: null,
+        kills: null,
+        points: null,
+        instagram: null,
+        roblox: null,
+        avatar: null,
+      },
+    ],
     members: [],
   },
 
@@ -173,7 +210,7 @@ const CLAN_CONFIG = {
   tournaments: [
     {
       id: 1,
-      name: "Uchiha_Tournament!(Hoster my owner)",        // TBD
+      name: "Uchiha_Tournament!(Hosted by owner)",        // TBD
       status: "COMPLETED",
       date: "10/8/26",        // TBD
       participants: "12+",// TBD
