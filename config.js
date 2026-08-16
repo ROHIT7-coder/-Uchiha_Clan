@@ -87,7 +87,7 @@ const CLAN_CONFIG = {
     },
     {
       role: "CO-OWNER",
-      roleIcon: "elite",
+      roleIcon: "crown",
       name: "Shoyo", // real name not disclosed — leave null
       instagram: "https://www.instagram.com/x._shoyo._x/?hl=en",
       discord: "shoyo.hinata20",
