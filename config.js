@@ -313,7 +313,7 @@ const CLAN_CONFIG = {
     "Follow tournament rules.",
     "Follow Discord rules.",
     "Maintain good sportsmanship.",
-    "No Racism."
+    "No Racism.",
     "Respect others and never hate Anyone."
   ],
 
