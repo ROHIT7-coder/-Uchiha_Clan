@@ -271,7 +271,7 @@ const CLAN_CONFIG = {
     {
       title: "TOURNAMENT #01",
       body: "Our first tournament has been completed.",
-      date: null,
+      date: "10/8/26",
     },
     {
       title: "NEXT TOURNAMENT",
@@ -279,9 +279,9 @@ const CLAN_CONFIG = {
       date: null,
     },
     {
-      title: "CLAN UPDATES",
-      body: "Future clan announcements will be posted here.",
-      date: null,
+      title: "CLAN Moderation Update",
+      body: "Added 3 Moderator, 1 Devloper, 1 Traitor In Insta gc.",
+      date: "15/8/26",
     },
   ],
 
@@ -313,6 +313,8 @@ const CLAN_CONFIG = {
     "Follow tournament rules.",
     "Follow Discord rules.",
     "Maintain good sportsmanship.",
+    "No Racism."
+    "Respect others and never hate Anyone."
   ],
 
 };
