@@ -314,7 +314,7 @@ const CLAN_CONFIG = {
     "Follow Discord rules.",
     "Maintain good sportsmanship.",
     "No Racism.",
-    "Respect others and never hate Anyone."
+    "Respect others and never hate Anyone. :)"
   ],
 
 };
