@@ -86,6 +86,13 @@ const CLAN_CONFIG = {
       discord: "prasanth0233",
     },
     {
+      role: "OWNER",
+      roleIcon: "crown",
+      name: "Shoyo", // real name not disclosed — leave null
+      instagram: "https://www.instagram.com/x._shoyo._x/?hl=en",
+      discord: "shoyo.hinata20",
+    },
+    {
       role: "DISCORD MODERATOR",
       roleIcon: "shield",
       name: "that_oneguy007",
